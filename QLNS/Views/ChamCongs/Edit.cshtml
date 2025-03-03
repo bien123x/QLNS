@@ -1,0 +1,72 @@
+﻿@model QLNS.Models.ChamCong
+
+@{
+    ViewData["Title"] = "Chỉnh sửa Chấm Công";
+}
+
+<div class="container mt-4">
+    <h2 class="text-center text-primary">
+        <i class="fa-solid fa-calendar-check"></i> Chỉnh sửa Chấm Công
+    </h2>
+    <hr />
+
+    <div class="row justify-content-center">
+        <div class="col-md-6 p-4 shadow-lg rounded bg-white">
+            <form asp-action="Edit">
+                <div asp-validation-summary="ModelOnly" class="alert alert-danger"></div>
+                <input type="hidden" asp-for="MaChamCong" />
+
+                <!-- Nhân viên -->
+                <div class="mb-3">
+                    <label asp-for="MaNhanVien" class="form-label">
+                        <i class="fa-solid fa-id-badge"></i> Mã Nhân Viên
+                    </label>
+                    <input asp-for="MaNhanVien" class="form-control" value="@ViewData["MaNhanVien"]" readonly />
+                </div>
+
+                <!-- Ngày làm việc -->
+                <div class="mb-3">
+                    <label asp-for="NgayLam" class="form-label">
+                        <i class="fa-solid fa-calendar-day"></i> Ngày Làm
+                    </label>
+                    <input asp-for="NgayLam" type="date" class="form-control" readonly />
+                    <span asp-validation-for="NgayLam" class="text-danger"></span>
+                </div>
+
+                <!-- Giờ vào làm -->
+                <div class="mb-3">
+                    <label asp-for="GioVaoLam" class="form-label">
+                        <i class="fa-solid fa-clock"></i> Giờ Vào Làm
+                    </label>
+                    <input asp-for="GioVaoLam" type="time" class="form-control" />
+                    <span asp-validation-for="GioVaoLam" class="text-danger"></span>
+                </div>
+
+                <!-- Giờ kết thúc -->
+                <div class="mb-3">
+                    <label asp-for="GioKetThuc" class="form-label">
+                        <i class="fa-solid fa-clock"></i> Giờ Kết Thúc
+                    </label>
+                    <input asp-for="GioKetThuc" type="time" class="form-control" />
+                    <span asp-validation-for="GioKetThuc" class="text-danger"></span>
+                </div>
+
+                <!-- Nút Lưu và Hủy -->
+                <div class="d-flex justify-content-between">
+                    <button type="submit" class="btn btn-success">
+                        <i class="fa-solid fa-check"></i> Lưu
+                    </button>
+                    <a asp-action="Index" class="btn btn-secondary">
+                        <i class="fa-solid fa-arrow-left"></i> Hủy
+                    </a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

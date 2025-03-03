@@ -1,0 +1,105 @@
+﻿@model QLNS.Models.YeuCauNghiPhep
+
+@{
+    ViewData["Title"] = "Tạo Yêu Cầu Nghỉ Phép";
+}
+
+<div class="container mt-4">
+    <h2 class="text-center text-success">
+        <i class="fa-solid fa-calendar-plus"></i> Tạo Yêu Cầu Nghỉ Phép
+    </h2>
+    <hr />
+
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow-lg rounded p-4">
+                <div class="card-body">
+                    <form asp-action="Create">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                        <!-- Mã Nhân Viên -->
+                        <div class="mb-3">
+                            <label asp-for="MaNhanVien" class="form-label fw-bold">
+                                <i class="fa-solid fa-id-card"></i> Mã Nhân Viên
+                            </label>
+                            <input asp-for="MaNhanVien" class="form-control" value="@ViewData["MaNhanVien"]" readonly />
+                        </div>
+
+                        <!-- Ngày Bắt Đầu -->
+                        <div class="mb-3">
+                            <label asp-for="NgayBatDau" class="form-label fw-bold">
+                                <i class="fa-solid fa-calendar-day"></i> Ngày Bắt Đầu
+                            </label>
+                            <input asp-for="NgayBatDau" class="form-control" type="date" id="ngayBatDau" required />
+                            <span asp-validation-for="NgayBatDau" class="text-danger"></span>
+                        </div>
+
+                        <!-- Ngày Kết Thúc -->
+                        <div class="mb-3">
+                            <label asp-for="NgayKetThuc" class="form-label fw-bold">
+                                <i class="fa-solid fa-calendar-check"></i> Ngày Kết Thúc
+                            </label>
+                            <input asp-for="NgayKetThuc" class="form-control" type="date" id="ngayKetThuc" required />
+                            <span asp-validation-for="NgayKetThuc" class="text-danger"></span>
+                        </div>
+
+                        <!-- Tổng Số Ngày (Tự động tính) -->
+                        <div class="mb-3">
+                            <label asp-for="TongSoNgay" class="form-label fw-bold">
+                                <i class="fa-solid fa-hourglass-half"></i> Tổng Số Ngày
+                            </label>
+                            <input asp-for="TongSoNgay" class="form-control" id="tongSoNgay" readonly />
+                            <span asp-validation-for="TongSoNgay" class="text-danger"></span>
+                        </div>
+
+                        <!-- Lý Do -->
+                        <div class="mb-3">
+                            <label asp-for="LyDo" class="form-label fw-bold">
+                                <i class="fa-solid fa-clipboard"></i> Lý Do
+                            </label>
+                            <textarea asp-for="LyDo" class="form-control" rows="3"></textarea>
+                            <span asp-validation-for="LyDo" class="text-danger"></span>
+                        </div>
+
+                        <!-- Trạng Thái -->
+                        <div class="mb-3">
+                            <label asp-for="TinhTrang" class="form-label fw-bold">
+                                <i class="fa-solid fa-circle-info"></i> Tình Trạng
+                            </label>
+                            <input asp-for="TinhTrang" class="form-control" value="Chờ Duyệt" readonly />
+                            <span asp-validation-for="TinhTrang" class="text-danger"></span>
+                        </div>
+
+                        <!-- Nút Submit -->
+                        <div class="d-flex justify-content-between">
+                            <a asp-action="Index" class="btn btn-secondary">
+                                <i class="fa-solid fa-arrow-left"></i> Quay Lại
+                            </a>
+                            <button type="submit" class="btn btn-primary">
+                                <i class="fa-solid fa-paper-plane"></i> Gửi Yêu Cầu
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Tự động tính Tổng Số Ngày -->
+<script>
+    document.getElementById("ngayBatDau").addEventListener("change", tinhSoNgay);
+    document.getElementById("ngayKetThuc").addEventListener("change", tinhSoNgay);
+
+    function tinhSoNgay() {
+        let ngayBatDau = new Date(document.getElementById("ngayBatDau").value);
+        let ngayKetThuc = new Date(document.getElementById("ngayKetThuc").value);
+        if (ngayBatDau && ngayKetThuc && ngayKetThuc >= ngayBatDau) {
+            let soNgay = Math.ceil((ngayKetThuc - ngayBatDau) / (1000 * 60 * 60 * 24)) + 1;
+            document.getElementById("tongSoNgay").value = soNgay;
+        } else {
+            document.getElementById("tongSoNgay").value = "";
+        }
+    }
+</script>
+

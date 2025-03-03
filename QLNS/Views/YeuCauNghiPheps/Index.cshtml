@@ -1,0 +1,76 @@
+﻿@model IEnumerable<QLNS.Models.YeuCauNghiPhep>
+
+@{
+    ViewData["Title"] = "Danh sách Yêu Cầu Nghỉ Phép";
+}
+
+<div class="container mt-4">
+    <h2 class="text-center text-primary">
+        <i class="fa-solid fa-calendar-minus"></i> Danh sách Yêu Cầu Nghỉ Phép
+    </h2>
+    <hr />
+
+    <!-- Nút tạo yêu cầu mới -->
+    <div class="d-flex justify-content-end mb-3">
+        <a asp-action="Create" class="btn btn-success">
+            <i class="fa-solid fa-plus"></i> Tạo Yêu Cầu Mới
+        </a>
+    </div>
+
+    <!-- Bảng danh sách yêu cầu -->
+    <div class="table-responsive shadow-lg rounded p-3 bg-white">
+        <table class="table table-striped table-hover">
+            <thead class="table-dark text-center">
+                <tr>
+                    <th>Nhân Viên</th>
+                    <th>Ngày Bắt Đầu</th>
+                    <th>Ngày Kết Thúc</th>
+                    <th>Tổng Số Ngày</th>
+                    <th>Lý Do</th>
+                    <th>Tình Trạng</th>
+                    <th>Hành Động</th>
+                </tr>
+            </thead>
+            <tbody class="text-center">
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@Html.DisplayFor(modelItem => item.NhanVien.HoTenNV)</td>
+                        <td>@item.NgayBatDau.ToString("dd/MM/yyyy")</td>
+                        <td>@item.NgayKetThuc.ToString("dd/MM/yyyy")</td>
+                        <td>@Html.DisplayFor(modelItem => item.TongSoNgay)</td>
+                        <td>@Html.DisplayFor(modelItem => item.LyDo)</td>
+                        <td>
+                            @if (item.TinhTrang == "Đã Duyệt")
+                            {
+                                <span class="badge bg-success">✅ Đã Duyệt</span>
+                            }
+                            else if (item.TinhTrang == "Chờ Duyệt")
+                            {
+                                <span class="badge bg-warning text-dark">⏳ Chờ Duyệt</span>
+                            }
+                            else
+                            {
+                                <span class="badge bg-danger">❌ Từ Chối</span>
+                            }
+                        </td>
+                        <td>
+                            <div class="btn-group">
+                                <a asp-action="Edit" asp-route-id="@item.MaNghiPhep" class="btn btn-sm btn-primary">
+                                    <i class="fa-solid fa-edit"></i> Sửa
+                                </a>
+                                <a asp-action="Details" asp-route-id="@item.MaNghiPhep" class="btn btn-sm btn-info">
+                                    <i class="fa-solid fa-eye"></i> Xem
+                                </a>
+                                <a asp-action="Delete" asp-route-id="@item.MaNghiPhep" class="btn btn-sm btn-danger">
+                                    <i class="fa-solid fa-trash"></i> Xóa
+                                </a>
+                            </div>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+

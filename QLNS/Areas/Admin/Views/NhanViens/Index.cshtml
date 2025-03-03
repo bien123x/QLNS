@@ -1,0 +1,68 @@
+﻿@model IEnumerable<QLNS.Models.NhanVien>
+
+@{
+    ViewData["Title"] = "Danh sách nhân viên";
+}
+
+<div class="container mt-4">
+    <h2 class="text-center text-primary mb-4">
+        <i class="fa-solid fa-users"></i> Danh sách Nhân Viên
+    </h2>
+
+    <div class="text-end mb-3">
+        <a asp-action="Create" class="btn btn-success">
+            <i class="fa-solid fa-user-plus"></i> Thêm nhân viên
+        </a>
+    </div>
+
+    <div class="table-responsive">
+        <table class="table table-hover table-bordered shadow-sm">
+            <thead class="table-dark text-center">
+                <tr>
+                    <th>Họ và tên</th>
+                    <th>Ngày sinh</th>
+                    <th>Giới tính</th>
+                    <th>Địa chỉ</th>
+                    <th>Số điện thoại</th>
+                    <th>Ngày vào làm</th>
+                    <th>Email</th>
+                    <th>Phòng ban</th>
+                    <th>Vị trí</th>
+                    <th>Hành động</th>
+                </tr>
+            </thead>
+            <tbody class="text-center">
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@Html.DisplayFor(modelItem => item.HoTenNV)</td>
+                        <td>@item.NgaySinh.ToString("dd/MM/yyyy")</td> <!-- Định dạng ngày tháng -->
+                        <td>
+                            @(item.GioiTinh == "Nam" ? "Nam" : "Nữ") <!-- Hiển thị giới tính -->
+                        </td>
+                        <td>@Html.DisplayFor(modelItem => item.DiaChi)</td>
+                        <td>@Html.DisplayFor(modelItem => item.SoDT)</td>
+                        <td>@item.NgayVaoLam.ToString("dd/MM/yyyy")</td> <!-- Định dạng ngày -->
+                        <td>@Html.DisplayFor(modelItem => item.Email)</td>
+                        <td>@Html.DisplayFor(modelItem => item.PhongBan.TenPhongBan)</td>
+                        <td>@Html.DisplayFor(modelItem => item.ViTriCongViec.TenViTri)</td>
+                        <td>
+                            <a asp-action="Edit" asp-route-id="@item.MaNhanVien" class="btn btn-warning btn-sm">
+                                <i class="fa-solid fa-pen-to-square"></i> Sửa
+                            </a>
+                            <a asp-action="Details" asp-route-id="@item.MaNhanVien" class="btn btn-info btn-sm">
+                                <i class="fa-solid fa-circle-info"></i> Chi tiết
+                            </a>
+                            <a asp-action="Delete" asp-route-id="@item.MaNhanVien" class="btn btn-danger btn-sm">
+                                <i class="fa-solid fa-trash"></i> Xóa
+                            </a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<!-- FontAwesome (Nếu chưa có) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">

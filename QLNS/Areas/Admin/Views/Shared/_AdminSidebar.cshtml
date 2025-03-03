@@ -1,0 +1,66 @@
+﻿<!-- Sidebar -->
+<nav id="sidebar" class="d-flex flex-column bg-dark vh-100 p-3">
+    <h4 class="text-white text-center mb-4"><i class="fa-solid fa-user-shield"></i> Admin Panel</h4>
+    <ul class="nav flex-column">
+        <li class="nav-item">
+            <a class="nav-link text-white" href="/Admin/Dashboard">
+                <i class="fa-solid fa-chart-line"></i> Dashboard
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-white" href="/Admin/NguoiDungs">
+                <i class="fa-solid fa-users"></i> Quản lý người dùng
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-white" href="/Admin/NhanViens">
+                <i class="fa-solid fa-users"></i> Quản lý nhân viên
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-white" href="/Admin/DuyetYeuCauNghiPheps">
+                <i class="fa-solid fa-users"></i> Quản lý duyệt YCNP
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-white" href="/Admin/Luongs">
+                <i class="fa-solid fa-users"></i> Tính lương
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-white" href="/Admin/PhongBans">
+                <i class="fa-solid fa-user-lock"></i> Quản lý phòng ban
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-white" href="/Admin/ViTriCongViecs">
+                <i class="fa-solid fa-gear"></i> Quản lý vị công việc
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-danger" href="/Account/Logout">
+                <i class="fa-solid fa-right-from-bracket"></i> Đăng xuất
+            </a>
+        </li>
+    </ul>
+</nav>
+
+<style>
+    #sidebar {
+        width: 250px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+    }
+    #sidebar .nav-link {
+        font-size: 16px;
+    }
+    #sidebar .nav-link i {
+        margin-right: 10px;
+    }
+    #sidebar .nav-link:hover {
+        background: #495057;
+        border-radius: 5px;
+    }
+</style>

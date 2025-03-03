@@ -1,0 +1,66 @@
+﻿@model IEnumerable<QLNS.Models.Luong>
+
+@{
+    ViewData["Title"] = "Danh Sách Lương Nhân Viên";
+}
+
+<div class="container mt-4">
+    <h2 class="text-center text-primary">
+        <i class="fa-solid fa-money-bill"></i> Danh Sách Lương Nhân Viên
+    </h2>
+    <hr />
+
+    <!-- Nút tạo mới -->
+    <div class="d-flex justify-content-between mb-3">
+        <a asp-action="Create" class="btn btn-success">
+            <i class="fa-solid fa-plus"></i> Thêm Lương Mới
+        </a>
+    </div>
+
+    <!-- Bảng danh sách lương -->
+    <div class="table-responsive">
+        <table class="table table-striped table-bordered text-center align-middle shadow">
+            <thead class="table-primary">
+                <tr>
+                    <th>Nhân Viên</th>
+                    <th>Tháng</th>
+                    <th>Năm</th>
+                    <th>Tiền Tăng Ca</th>
+                    <th>Khoản Trừ</th>
+                    <th>Lương Thực Nhận</th>
+                    <th>Thao Tác</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@Html.DisplayFor(modelItem => item.NhanVien.HoTenNV)</td>
+                        <td>@Html.DisplayFor(modelItem => item.Thang)</td>
+                        <td>@Html.DisplayFor(modelItem => item.Nam)</td>
+                        <td>@Html.DisplayFor(modelItem => item.TienTangCa) đ</td>
+                        <td>@Html.DisplayFor(modelItem => item.KhoanTru) đ</td>
+                        <td class="fw-bold text-success">@Html.DisplayFor(modelItem => item.LuongThucNhan) đ</td>
+                        <td>
+                            <a asp-action="Edit" asp-route-id="@item.MaLuong" class="btn btn-warning btn-sm">
+                                <i class="fa-solid fa-edit"></i> Sửa
+                            </a>
+                            <a asp-action="Details" asp-route-id="@item.MaLuong" class="btn btn-info btn-sm">
+                                <i class="fa-solid fa-eye"></i> Chi tiết
+                            </a>
+                            <a asp-action="Delete" asp-route-id="@item.MaLuong" class="btn btn-danger btn-sm">
+                                <i class="fa-solid fa-trash"></i> Xóa
+                            </a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

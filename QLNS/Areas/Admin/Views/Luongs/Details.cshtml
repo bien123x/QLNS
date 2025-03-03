@@ -1,0 +1,54 @@
+﻿@model QLNS.Models.Luong
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Luong</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.NhanVien)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.NhanVien.GioiTinh)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Thang)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Thang)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Nam)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Nam)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.TienTangCa)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.TienTangCa)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.KhoanTru)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.KhoanTru)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.LuongThucNhan)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.LuongThucNhan)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.MaLuong">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

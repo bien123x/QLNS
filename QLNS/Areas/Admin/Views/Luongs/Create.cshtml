@@ -1,0 +1,52 @@
+﻿@model QLNS.Models.Luong
+
+@{
+    ViewData["Title"] = "Tạo Bảng Lương";
+}
+
+<div class="container mt-4">
+    <h2 class="text-center text-primary">
+        <i class="fa-solid fa-file-invoice-dollar"></i> Tạo Bảng Lương Nhân Viên
+    </h2>
+    <hr />
+
+    <div class="row justify-content-center">
+        <div class="col-md-8 p-4 shadow-lg rounded bg-white">
+            <form asp-action="Create">
+                <div asp-validation-summary="ModelOnly" class="alert alert-danger"></div>
+
+                <!-- Chọn Nhân Viên -->
+                <div class="mb-3">
+                    <label asp-for="MaNhanVien" class="form-label"><i class="fa-solid fa-user"></i> Nhân Viên</label>
+                    <select asp-for="MaNhanVien" class="form-control" asp-items="ViewBag.MaNhanVien"></select>
+                </div>
+
+                <!-- Nhập Tháng & Năm -->
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label asp-for="Thang" class="form-label"><i class="fa-solid fa-calendar"></i> Tháng</label>
+                        <input asp-for="Thang" type="number" class="form-control" min="1" max="12" required />
+                        <span asp-validation-for="Thang" class="text-danger"></span>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label asp-for="Nam" class="form-label"><i class="fa-solid fa-calendar"></i> Năm</label>
+                        <input asp-for="Nam" type="number" class="form-control" min="2000" max="@DateTime.Now.Year" required />
+                        <span asp-validation-for="Nam" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <!-- Nút Lưu và Hủy -->
+                <div class="d-flex justify-content-between">
+                    <button type="submit" class="btn btn-success"><i class="fa-solid fa-check"></i> Lưu</button>
+                    <a asp-action="Index" class="btn btn-secondary"><i class="fa-solid fa-arrow-left"></i> Quay Lại</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
