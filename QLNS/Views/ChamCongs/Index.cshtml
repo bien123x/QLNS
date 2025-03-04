@@ -13,9 +13,9 @@
         <a asp-action="Create" class="btn btn-success">
             <i class="fa-solid fa-plus"></i> Thêm Chấm Công
         </a>
-        <a asp-action="ExportExcel" class="btn btn-primary">
+        @* <a asp-action="ExportExcel" class="btn btn-primary">
             <i class="fa-solid fa-file-excel"></i> Xuất Excel
-        </a>
+        </a> *@
     </div>
 
     <div class="table-responsive shadow-lg rounded">
@@ -41,15 +41,15 @@
                         <td>@item.GioVaoLam.ToString(@"hh\:mm")</td>
                         <td>@item.GioKetThuc.ToString(@"hh\:mm")</td>
                         <td>
-                            <a asp-action="Edit" asp-route-id="@item.MaChamCong" class="btn btn-warning btn-sm">
+                            @* <a asp-action="Edit" asp-route-id="@item.MaChamCong" class="btn btn-warning btn-sm">
                                 <i class="fa-solid fa-pen-to-square"></i> Sửa
-                            </a>
+                            </a> *@
                             <a asp-action="Details" asp-route-id="@item.MaChamCong" class="btn btn-info btn-sm text-white">
                                 <i class="fa-solid fa-circle-info"></i> Xem
-                            </a>
+                            </a>@* 
                             <a asp-action="Delete" asp-route-id="@item.MaChamCong" class="btn btn-danger btn-sm">
                                 <i class="fa-solid fa-trash"></i> Xóa
-                            </a>
+                            </a> *@
                         </td>
                     </tr>
                 }

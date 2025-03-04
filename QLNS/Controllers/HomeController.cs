@@ -17,8 +17,7 @@ namespace QLNS.Controllers
         public IActionResult Index()
         {
             ViewBag.MaNguoiDung = HttpContext.Session.GetInt32("MaNguoiDung");
-            ViewBag.TenDangNhap = HttpContext.Session.GetString("TenDangNhap");
-            return View();
+            return RedirectToAction("Index", "ChamCongs");
         }
     }
 }

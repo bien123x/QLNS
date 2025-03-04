@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
+using OfficeOpenXml;
 using QLNS.Data;
 using QLNS.Models;
 
@@ -82,7 +83,7 @@ namespace QLNS.Areas.Admin.Controllers
             var soNgayChamCong = _context.ChamCongs.Count(cc => cc.MaNhanVien == luong.MaNhanVien && cc.NgayLam.Date.Month == luong.Thang && cc.NgayLam.Date.Year == luong.Nam);
             var soNgayNghi = 0;
 
-            foreach (var yc in _context.YeuCauNghiPheps.Where(yc => yc.MaNhanVien == luong.MaNhanVien).ToList())
+            foreach (var yc in _context.YeuCauNghiPheps.Where(yc => yc.MaNhanVien == luong.MaNhanVien && yc.NgayBatDau.Month == luong.Thang && yc.NgayBatDau.Year == luong.Nam).ToList())
             {
                 if (yc.TinhTrang == "Đã Duyệt")
                 {
@@ -193,5 +194,60 @@ namespace QLNS.Areas.Admin.Controllers
         {
             return _context.Luongs.Any(e => e.MaLuong == id);
         }
+
+        public IActionResult ExportExcel(int thang, int nam)
+        {
+            var danhSachLuong = _context.Luongs
+                .Where(l => l.Thang == thang && l.Nam == nam)
+                .Select(l => new
+                {
+                    HoTen = l.NhanVien.HoTenNV,
+                    Thang = l.Thang,
+                    Nam = l.Nam,
+                    TienTangCa = l.TienTangCa,
+                    KhoanTru = l.KhoanTru,
+                    LuongThucNhan = l.LuongThucNhan
+                })
+                .ToList();
+
+            if (!danhSachLuong.Any())
+            {
+                return Content("Không có dữ liệu để xuất!");
+            }
+
+            using (ExcelPackage package = new ExcelPackage())
+            {
+                ExcelWorksheet worksheet = package.Workbook.Worksheets.Add("Bảng Lương");
+
+                // Header
+                worksheet.Cells[1, 1].Value = "Nhân Viên";
+                worksheet.Cells[1, 2].Value = "Tháng";
+                worksheet.Cells[1, 3].Value = "Năm";
+                worksheet.Cells[1, 4].Value = "Tiền Tăng Ca";
+                worksheet.Cells[1, 5].Value = "Khoản Trừ";
+                worksheet.Cells[1, 6].Value = "Lương Thực Nhận";
+
+                int row = 2;
+                foreach (var luong in danhSachLuong)
+                {
+                    worksheet.Cells[row, 1].Value = luong.HoTen;
+                    worksheet.Cells[row, 2].Value = luong.Thang;
+                    worksheet.Cells[row, 3].Value = luong.Nam;
+                    worksheet.Cells[row, 4].Value = luong.TienTangCa;
+                    worksheet.Cells[row, 5].Value = luong.KhoanTru;
+                    worksheet.Cells[row, 6].Value = luong.LuongThucNhan;
+                    row++;
+                }
+
+                worksheet.Cells.AutoFitColumns();
+                var stream = new MemoryStream();
+                package.SaveAs(stream);
+                stream.Position = 0;
+
+                string fileName = $"BangLuong_{thang}_{nam}.xlsx";
+                return File(stream, "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", fileName);
+            }
+        }
+
     }
 }

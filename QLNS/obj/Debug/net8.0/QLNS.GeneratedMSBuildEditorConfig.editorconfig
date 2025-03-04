@@ -36,6 +36,26 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[E:/2025-HK1/NhapMon/BTL_Final1/QLNS/QLNS/Areas/Admin/Views/ChamCongs/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2hhbUNvbmdzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/2025-HK1/NhapMon/BTL_Final1/QLNS/QLNS/Areas/Admin/Views/ChamCongs/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2hhbUNvbmdzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/2025-HK1/NhapMon/BTL_Final1/QLNS/QLNS/Areas/Admin/Views/ChamCongs/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2hhbUNvbmdzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/2025-HK1/NhapMon/BTL_Final1/QLNS/QLNS/Areas/Admin/Views/ChamCongs/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2hhbUNvbmdzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/2025-HK1/NhapMon/BTL_Final1/QLNS/QLNS/Areas/Admin/Views/ChamCongs/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2hhbUNvbmdzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/2025-HK1/NhapMon/BTL_Final1/QLNS/QLNS/Areas/Admin/Views/DuyetYeuCauNghiPheps/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRHV5ZXRZZXVDYXVOZ2hpUGhlcHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -182,6 +202,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [E:/2025-HK1/NhapMon/BTL_Final1/QLNS/QLNS/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/2025-HK1/NhapMon/BTL_Final1/QLNS/QLNS/Views/Luongs/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTHVvbmdzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/2025-HK1/NhapMon/BTL_Final1/QLNS/QLNS/Views/Shared/Error.cshtml]

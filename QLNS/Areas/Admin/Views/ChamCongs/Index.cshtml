@@ -1,0 +1,53 @@
+﻿@model IEnumerable<QLNS.Models.ChamCong>
+
+@{
+    ViewData["Title"] = "Chấm Công";
+}
+
+<div class="container mt-4">
+    <h2 class="text-center text-primary mb-4">
+        <i class="fa-solid fa-clock"></i> Quản Lý Chấm Công
+    </h2>
+
+    
+
+    <div class="table-responsive shadow-lg rounded">
+        <table class="table table-hover table-bordered align-middle">
+            <thead class="table-dark text-center">
+                <tr>
+                    <th>Nhân Viên</th>
+                    <th>Ngày Làm</th>
+                    <th>Giờ Vào</th>
+                    <th>Giờ Kết Thúc</th>
+                    <th>Hành Động</th>
+                </tr>
+            </thead>
+            <tbody class="text-center">
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <!-- Hiển thị Giới Tính bằng Icon -->
+                        <td>
+                            @item.NhanVien.HoTenNV.ToString()
+                        </td>
+                        <td>@item.NgayLam.ToString("dd/MM/yyyy")</td>
+                        <td>@item.GioVaoLam.ToString(@"hh\:mm")</td>
+                        <td>@item.GioKetThuc.ToString(@"hh\:mm")</td>
+                        <td>
+                            <a asp-action="Edit" asp-route-id="@item.MaChamCong" class="btn btn-warning btn-sm">
+                                <i class="fa-solid fa-pen-to-square"></i> Sửa
+                            </a>
+                            <a asp-action="Details" asp-route-id="@item.MaChamCong" class="btn btn-info btn-sm text-white">
+                                <i class="fa-solid fa-circle-info"></i> Xem
+                            </a>
+                            <a asp-action="Delete" asp-route-id="@item.MaChamCong" class="btn btn-danger btn-sm">
+                                <i class="fa-solid fa-trash"></i> Xóa
+                            </a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+

@@ -1,0 +1,57 @@
+﻿@model IEnumerable<QLNS.Models.Luong>
+
+@{
+    ViewData["Title"] = "Lương";
+}
+
+<div class="container mt-4">
+    <h2 class="text-center text-primary mb-4">
+        <i class="fa-solid fa-clock"></i> Lương
+    </h2>
+
+    <form method="post" asp-action="Index" class="row mb-3">
+        <div class="col-md-3">
+            <label for="monthSelect" class="form-label">Chọn tháng:</label>
+            <input type="number" id="monthSelect" name="month" class="form-control" min="1" max="12" value="@Context.Request.Query["month"]">
+        </div>
+        <div class="col-md-3">
+            <label for="yearSelect" class="form-label">Chọn năm:</label>
+            <input type="number" id="yearSelect" name="year" class="form-control" min="2000" max="2100" value="@Context.Request.Query["year"]">
+        </div>
+        <div class="col-md-3 d-flex align-items-end">
+            <button type="submit" class="btn btn-primary w-100">
+                <i class="fa-solid fa-filter"></i> Lọc
+            </button>
+        </div>
+    </form>
+
+    <div class="table-responsive shadow-lg rounded">
+        <table class="table table-hover table-bordered align-middle">
+            <thead class="table-dark text-center">
+                <tr>
+                    <th>Nhân Viên</th>
+                    <th>Tháng</th>
+                    <th>Năm</th>
+                    <th>Tăng ca</th>
+                    <th>Khoản trừ</th>
+                    <th>Lương thực nhận</th>
+                </tr>
+            </thead>
+            <tbody class="text-center">
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @item.NhanVien.HoTenNV.ToString()
+                        </td>
+                        <td>@item.Thang</td>
+                        <td>@item.Nam</td>
+                        <td>@item.TienTangCa</td>
+                        <td>@item.KhoanTru</td>
+                        <td>@item.LuongThucNhan</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

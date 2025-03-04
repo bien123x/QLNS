@@ -1,42 +1,48 @@
 ﻿@model QLNS.Models.ChamCong
 
 @{
-    ViewData["Title"] = "Details";
+    ViewData["Title"] = "Chi Tiết Chấm Công";
 }
 
-<h1>Details</h1>
-
-<div>
-    <h4>ChamCong</h4>
+<div class="container mt-4">
+    <h2 class="text-center text-primary">
+        <i class="fa-solid fa-calendar-check"></i> Chi Tiết Chấm Công
+    </h2>
     <hr />
-    <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.NhanVien)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.NhanVien.GioiTinh)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.NgayLam)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.NgayLam)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.GioVaoLam)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.GioVaoLam)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.GioKetThuc)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.GioKetThuc)
-        </dd>
-    </dl>
-</div>
-<div>
-    <a asp-action="Edit" asp-route-id="@Model?.MaChamCong">Edit</a> |
-    <a asp-action="Index">Back to List</a>
+
+    <!-- Thông tin chi tiết -->
+    <div class="card shadow-lg border-primary">
+        <div class="card-body">
+            <table class="table table-bordered">
+                <tbody>
+                    <tr>
+                        <th class="bg-light text-primary">Nhân Viên</th>
+                        <td>@Html.DisplayFor(model => model.NhanVien.HoTenNV)</td>
+                    </tr>
+                    <tr>
+                        <th class="bg-light text-primary">Ngày Làm</th>
+                        <td>@Model.NgayLam.ToString("dd/MM/yyyy")</td>
+                    </tr>
+                    <tr>
+                        <th class="bg-light text-primary">Giờ Vào Làm</th>
+                        <td>@Model.GioVaoLam.ToString(@"hh\:mm")</td>
+                    </tr>
+                    <tr>
+                        <th class="bg-light text-primary">Giờ Kết Thúc</th>
+                        <td>@Model.GioKetThuc.ToString(@"hh\:mm")</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- Nút điều hướng -->
+    <div class="mt-4 d-flex justify-content-center">
+        @* <a asp-action="Edit" asp-route-id="@Model?.MaChamCong" class="btn btn-warning me-2">
+            <i class="fa-solid fa-edit"></i> Sửa
+        </a> *@
+        <a asp-action="Index" class="btn btn-secondary">
+            <i class="fa-solid fa-arrow-left"></i> Quay Lại
+        </a>
+    </div>
 </div>

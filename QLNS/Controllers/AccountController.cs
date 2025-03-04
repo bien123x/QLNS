@@ -44,6 +44,15 @@ namespace QLNS.Controllers
         }
         public IActionResult Logout()
         {
+            //if (HttpContext.Session.GetString("IsAdmin") == "true")
+            //{
+            //    HttpContext.Session.Remove("IsAdmin");
+            //    if (HttpContext.Session.GetInt32("MaNguoiDung") == maND)
+            //    {
+            //        HttpContext.Session.Remove("MaNguoiDung");
+            //        HttpContext.Session.Remove("TenDangNhap");
+            //    }
+            //}
             HttpContext.Session.Clear();
             return RedirectToAction("Login");
         }

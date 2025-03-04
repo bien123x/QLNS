@@ -1,54 +1,69 @@
 ﻿@model QLNS.Models.YeuCauNghiPhep
 
 @{
-    ViewData["Title"] = "Details";
+    ViewData["Title"] = "Chi Tiết Yêu Cầu Nghỉ Phép";
 }
 
-<h1>Details</h1>
-
-<div>
-    <h4>YeuCauNghiPhep</h4>
+<div class="container mt-4">
+    <h2 class="text-center text-primary">
+        <i class="fa-solid fa-file-signature"></i> Chi Tiết Yêu Cầu Nghỉ Phép
+    </h2>
     <hr />
-    <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.NhanVien)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.NhanVien.GioiTinh)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.NgayBatDau)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.NgayBatDau)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.NgayKetThuc)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.NgayKetThuc)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.TongSoNgay)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.TongSoNgay)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.LyDo)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.LyDo)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.TinhTrang)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.TinhTrang)
-        </dd>
-    </dl>
-</div>
-<div>
-    <a asp-action="Edit" asp-route-id="@Model?.MaNghiPhep">Edit</a> |
-    <a asp-action="Index">Back to List</a>
+
+    <!-- Thẻ hiển thị chi tiết yêu cầu -->
+    <div class="card shadow-lg border-primary">
+        <div class="card-body">
+            <table class="table table-bordered">
+                <tbody>
+                    <tr>
+                        <th class="bg-light text-primary">Nhân Viên</th>
+                        <td>@Html.DisplayFor(model => model.NhanVien.HoTenNV)</td>
+                    </tr>
+                    <tr>
+                        <th class="bg-light text-primary">Ngày Bắt Đầu</th>
+                        <td>@Model.NgayBatDau.ToString(@"hh\:mm")</td>
+                    </tr>
+                    <tr>
+                        <th class="bg-light text-primary">Ngày Kết Thúc</th>
+                        <td>@Model.NgayKetThuc.ToString(@"hh\:mm")</td>
+                    </tr>
+                    <tr>
+                        <th class="bg-light text-primary">Tổng Số Ngày</th>
+                        <td>@Html.DisplayFor(model => model.TongSoNgay)</td>
+                    </tr>
+                    <tr>
+                        <th class="bg-light text-primary">Lý Do</th>
+                        <td>@Html.DisplayFor(model => model.LyDo)</td>
+                    </tr>
+                    <tr>
+                        <th class="bg-light text-primary">Tình Trạng</th>
+                        <td>
+                            @if (Model.TinhTrang == "Đã Duyệt")
+                            {
+                                <span class="badge bg-success">✔ Đã Duyệt</span>
+                            }
+                            else if (Model.TinhTrang == "Từ Chối")
+                            {
+                                <span class="badge bg-danger">❌ Từ Chối</span>
+                            }
+                            else
+                            {
+                                <span class="badge bg-warning">⏳ Chờ Xét Duyệt</span>
+                            }
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- Nút điều hướng -->
+    <div class="mt-4 d-flex justify-content-center">
+        @* <a asp-action="Edit" asp-route-id="@Model?.MaNghiPhep" class="btn btn-warning me-2">
+            <i class="fa-solid fa-edit"></i> Sửa
+        </a> *@
+        <a asp-action="Index" class="btn btn-secondary">
+            <i class="fa-solid fa-arrow-left"></i> Quay Lại
+        </a>
+    </div>
 </div>
