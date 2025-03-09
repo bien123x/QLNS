@@ -23,7 +23,8 @@ namespace QLNS.Areas.Admin.Controllers
         // GET: Admin/NguoiDungs
         public async Task<IActionResult> Index()
         {
-            return View(await _context.NguoiDungs.ToListAsync());
+            
+            return View(await _context.NguoiDungs.Include(nd => nd.NhanVien).ToListAsync());
         }
 
         // GET: Admin/NguoiDungs/Details/5

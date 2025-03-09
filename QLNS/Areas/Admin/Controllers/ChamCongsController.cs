@@ -50,6 +50,7 @@ namespace QLNS.Areas.Admin.Controllers
         public IActionResult Create()
         {
             ViewData["MaNhanVien"] = new SelectList(_context.NhanViens, "MaNhanVien", "GioiTinh");
+            
             return View();
         }
 
@@ -160,6 +161,13 @@ namespace QLNS.Areas.Admin.Controllers
         private bool ChamCongExists(int id)
         {
             return _context.ChamCongs.Any(e => e.MaChamCong == id);
+        }
+
+        public int getMaNhanVien()
+        {
+            var maND = HttpContext.Session.GetInt32("MaNguoiDung");
+            var maNV = _context.NhanViens.FirstOrDefault(nv => nv.MaNguoiDung == maND).MaNhanVien;
+            return maNV;
         }
     }
 }

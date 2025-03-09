@@ -93,6 +93,13 @@ namespace QLNS.Areas.Admin.Controllers
 
             luong.LuongThucNhan = (decimal)(heSoLuong * 2500000 * (soNgayChamCong + soNgayNghi) / 26) + luong.TienTangCa + luong.KhoanTru;
 
+            if (_context.Luongs.Any(l => l.MaNhanVien == luong.MaNhanVien && l.Thang == luong.Thang && l.Nam == luong.Nam))
+            {
+                ViewData["TonTai"] = "True";
+                ViewData["MaNhanVien"] = new SelectList(_context.NhanViens, "MaNhanVien", "HoTenNV");
+                return View(luong);
+            }
+
             if (ModelState.IsValid)
             {
                 _context.Add(luong);

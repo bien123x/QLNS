@@ -7,84 +7,40 @@
       "RelativeMoniker": "D:0:0:{675868E4-B752-4552-929C-B7FF190680F6}|QLNS\\QLNS.csproj|solutionrelative:qlns\\areas\\admin\\views\\shared\\_adminsidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{675868E4-B752-4552-929C-B7FF190680F6}|QLNS\\QLNS.csproj|e:\\2025-hk1\\nhapmon\\btl_final1\\qlns\\qlns\\areas\\admin\\views\\nhanviens\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{675868E4-B752-4552-929C-B7FF190680F6}|QLNS\\QLNS.csproj|solutionrelative:qlns\\areas\\admin\\views\\nhanviens\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{675868E4-B752-4552-929C-B7FF190680F6}|QLNS\\QLNS.csproj|e:\\2025-hk1\\nhapmon\\btl_final1\\qlns\\qlns\\views\\shared\\_nhanviensidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{675868E4-B752-4552-929C-B7FF190680F6}|QLNS\\QLNS.csproj|solutionrelative:qlns\\views\\shared\\_nhanviensidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{675868E4-B752-4552-929C-B7FF190680F6}|QLNS\\QLNS.csproj|e:\\2025-hk1\\nhapmon\\btl_final1\\qlns\\qlns\\areas\\admin\\views\\nhanviens\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{675868E4-B752-4552-929C-B7FF190680F6}|QLNS\\QLNS.csproj|solutionrelative:qlns\\areas\\admin\\views\\nhanviens\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{675868E4-B752-4552-929C-B7FF190680F6}|QLNS\\QLNS.csproj|e:\\2025-hk1\\nhapmon\\btl_final1\\qlns\\qlns\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{675868E4-B752-4552-929C-B7FF190680F6}|QLNS\\QLNS.csproj|solutionrelative:qlns\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{675868E4-B752-4552-929C-B7FF190680F6}|QLNS\\QLNS.csproj|e:\\2025-hk1\\nhapmon\\btl_final1\\qlns\\qlns\\areas\\admin\\views\\nguoidungs\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{675868E4-B752-4552-929C-B7FF190680F6}|QLNS\\QLNS.csproj|solutionrelative:qlns\\areas\\admin\\views\\nguoidungs\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{675868E4-B752-4552-929C-B7FF190680F6}|QLNS\\QLNS.csproj|e:\\2025-hk1\\nhapmon\\btl_final1\\qlns\\qlns\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{675868E4-B752-4552-929C-B7FF190680F6}|QLNS\\QLNS.csproj|solutionrelative:qlns\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{675868E4-B752-4552-929C-B7FF190680F6}|QLNS\\QLNS.csproj|e:\\2025-hk1\\nhapmon\\btl_final1\\qlns\\qlns\\areas\\admin\\views\\nguoidungs\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{675868E4-B752-4552-929C-B7FF190680F6}|QLNS\\QLNS.csproj|solutionrelative:qlns\\areas\\admin\\views\\nguoidungs\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{675868E4-B752-4552-929C-B7FF190680F6}|QLNS\\QLNS.csproj|e:\\2025-hk1\\nhapmon\\btl_final1\\qlns\\qlns\\views\\chamcongs\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{675868E4-B752-4552-929C-B7FF190680F6}|QLNS\\QLNS.csproj|solutionrelative:qlns\\views\\chamcongs\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{675868E4-B752-4552-929C-B7FF190680F6}|QLNS\\QLNS.csproj|e:\\2025-hk1\\nhapmon\\btl_final1\\qlns\\qlns\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{675868E4-B752-4552-929C-B7FF190680F6}|QLNS\\QLNS.csproj|solutionrelative:qlns\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{675868E4-B752-4552-929C-B7FF190680F6}|QLNS\\QLNS.csproj|e:\\2025-hk1\\nhapmon\\btl_final1\\qlns\\qlns\\areas\\admin\\views\\nguoidungs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{675868E4-B752-4552-929C-B7FF190680F6}|QLNS\\QLNS.csproj|solutionrelative:qlns\\areas\\admin\\views\\nguoidungs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{675868E4-B752-4552-929C-B7FF190680F6}|QLNS\\QLNS.csproj|e:\\2025-hk1\\nhapmon\\btl_final1\\qlns\\qlns\\views\\yeucaunghipheps\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{675868E4-B752-4552-929C-B7FF190680F6}|QLNS\\QLNS.csproj|solutionrelative:qlns\\views\\yeucaunghipheps\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{675868E4-B752-4552-929C-B7FF190680F6}|QLNS\\QLNS.csproj|e:\\2025-hk1\\nhapmon\\btl_final1\\qlns\\qlns\\views\\yeucaunghipheps\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{675868E4-B752-4552-929C-B7FF190680F6}|QLNS\\QLNS.csproj|solutionrelative:qlns\\views\\yeucaunghipheps\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{675868E4-B752-4552-929C-B7FF190680F6}|QLNS\\QLNS.csproj|e:\\2025-hk1\\nhapmon\\btl_final1\\qlns\\qlns\\views\\chamcongs\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{675868E4-B752-4552-929C-B7FF190680F6}|QLNS\\QLNS.csproj|solutionrelative:qlns\\views\\chamcongs\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{675868E4-B752-4552-929C-B7FF190680F6}|QLNS\\QLNS.csproj|e:\\2025-hk1\\nhapmon\\btl_final1\\qlns\\qlns\\views\\chamcongs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{675868E4-B752-4552-929C-B7FF190680F6}|QLNS\\QLNS.csproj|solutionrelative:qlns\\views\\chamcongs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{675868E4-B752-4552-929C-B7FF190680F6}|QLNS\\QLNS.csproj|e:\\2025-hk1\\nhapmon\\btl_final1\\qlns\\qlns\\models\\nguoidung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{675868E4-B752-4552-929C-B7FF190680F6}|QLNS\\QLNS.csproj|solutionrelative:qlns\\models\\nguoidung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{675868E4-B752-4552-929C-B7FF190680F6}|QLNS\\QLNS.csproj|e:\\2025-hk1\\nhapmon\\btl_final1\\qlns\\qlns\\areas\\admin\\controllers\\luongscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{675868E4-B752-4552-929C-B7FF190680F6}|QLNS\\QLNS.csproj|solutionrelative:qlns\\areas\\admin\\controllers\\luongscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{675868E4-B752-4552-929C-B7FF190680F6}|QLNS\\QLNS.csproj|e:\\2025-hk1\\nhapmon\\btl_final1\\qlns\\qlns\\areas\\admin\\controllers\\chamcongscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{675868E4-B752-4552-929C-B7FF190680F6}|QLNS\\QLNS.csproj|solutionrelative:qlns\\areas\\admin\\controllers\\chamcongscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{675868E4-B752-4552-929C-B7FF190680F6}|QLNS\\QLNS.csproj|e:\\2025-hk1\\nhapmon\\btl_final1\\qlns\\qlns\\areas\\admin\\controllers\\nguoidungscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{675868E4-B752-4552-929C-B7FF190680F6}|QLNS\\QLNS.csproj|solutionrelative:qlns\\areas\\admin\\controllers\\nguoidungscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{675868E4-B752-4552-929C-B7FF190680F6}|QLNS\\QLNS.csproj|e:\\2025-hk1\\nhapmon\\btl_final1\\qlns\\qlns\\areas\\admin\\views\\chamcongs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{675868E4-B752-4552-929C-B7FF190680F6}|QLNS\\QLNS.csproj|solutionrelative:qlns\\areas\\admin\\views\\chamcongs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{675868E4-B752-4552-929C-B7FF190680F6}|QLNS\\QLNS.csproj|e:\\2025-hk1\\nhapmon\\btl_final1\\qlns\\qlns\\areas\\admin\\views\\luongs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{675868E4-B752-4552-929C-B7FF190680F6}|QLNS\\QLNS.csproj|solutionrelative:qlns\\areas\\admin\\views\\luongs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{675868E4-B752-4552-929C-B7FF190680F6}|QLNS\\QLNS.csproj|e:\\2025-hk1\\nhapmon\\btl_final1\\qlns\\qlns\\views\\yeucaunghipheps\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{675868E4-B752-4552-929C-B7FF190680F6}|QLNS\\QLNS.csproj|solutionrelative:qlns\\views\\yeucaunghipheps\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{675868E4-B752-4552-929C-B7FF190680F6}|QLNS\\QLNS.csproj|e:\\2025-hk1\\nhapmon\\btl_final1\\qlns\\qlns\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{675868E4-B752-4552-929C-B7FF190680F6}|QLNS\\QLNS.csproj|solutionrelative:qlns\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{675868E4-B752-4552-929C-B7FF190680F6}|QLNS\\QLNS.csproj|e:\\2025-hk1\\nhapmon\\btl_final1\\qlns\\qlns\\controllers\\chamcongscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{675868E4-B752-4552-929C-B7FF190680F6}|QLNS\\QLNS.csproj|solutionrelative:qlns\\controllers\\chamcongscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{675868E4-B752-4552-929C-B7FF190680F6}|QLNS\\QLNS.csproj|e:\\2025-hk1\\nhapmon\\btl_final1\\qlns\\qlns\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{675868E4-B752-4552-929C-B7FF190680F6}|QLNS\\QLNS.csproj|solutionrelative:qlns\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{675868E4-B752-4552-929C-B7FF190680F6}|QLNS\\QLNS.csproj|e:\\2025-hk1\\nhapmon\\btl_final1\\qlns\\qlns\\views\\shared\\_nhanviensidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{675868E4-B752-4552-929C-B7FF190680F6}|QLNS\\QLNS.csproj|solutionrelative:qlns\\views\\shared\\_nhanviensidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{675868E4-B752-4552-929C-B7FF190680F6}|QLNS\\QLNS.csproj|e:\\2025-hk1\\nhapmon\\btl_final1\\qlns\\qlns\\views\\luongs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{675868E4-B752-4552-929C-B7FF190680F6}|QLNS\\QLNS.csproj|solutionrelative:qlns\\views\\luongs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{675868E4-B752-4552-929C-B7FF190680F6}|QLNS\\QLNS.csproj|e:\\2025-hk1\\nhapmon\\btl_final1\\qlns\\qlns\\controllers\\luongscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{675868E4-B752-4552-929C-B7FF190680F6}|QLNS\\QLNS.csproj|solutionrelative:qlns\\controllers\\luongscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{675868E4-B752-4552-929C-B7FF190680F6}|QLNS\\QLNS.csproj|e:\\2025-hk1\\nhapmon\\btl_final1\\qlns\\qlns\\areas\\admin\\views\\luongs\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{675868E4-B752-4552-929C-B7FF190680F6}|QLNS\\QLNS.csproj|solutionrelative:qlns\\areas\\admin\\views\\luongs\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -94,129 +50,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "E:\\2025-HK1\\NhapMon\\BTL_Final1\\QLNS\\QLNS\\Areas\\Admin\\Views\\NhanViens\\Details.cshtml",
-              "RelativeDocumentMoniker": "QLNS\\Areas\\Admin\\Views\\NhanViens\\Details.cshtml",
-              "ToolTip": "E:\\2025-HK1\\NhapMon\\BTL_Final1\\QLNS\\QLNS\\Areas\\Admin\\Views\\NhanViens\\Details.cshtml",
-              "RelativeToolTip": "QLNS\\Areas\\Admin\\Views\\NhanViens\\Details.cshtml",
-              "ViewState": "AgIAABAAAAAAAAAAAAAwwCUAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-04T12:53:25.099Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "E:\\2025-HK1\\NhapMon\\BTL_Final1\\QLNS\\QLNS\\Areas\\Admin\\Views\\NguoiDungs\\Details.cshtml",
-              "RelativeDocumentMoniker": "QLNS\\Areas\\Admin\\Views\\NguoiDungs\\Details.cshtml",
-              "ToolTip": "E:\\2025-HK1\\NhapMon\\BTL_Final1\\QLNS\\QLNS\\Areas\\Admin\\Views\\NguoiDungs\\Details.cshtml",
-              "RelativeToolTip": "QLNS\\Areas\\Admin\\Views\\NguoiDungs\\Details.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAswCgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-04T12:39:06.692Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "site.css",
-              "DocumentMoniker": "E:\\2025-HK1\\NhapMon\\BTL_Final1\\QLNS\\QLNS\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "QLNS\\wwwroot\\css\\site.css",
-              "ToolTip": "E:\\2025-HK1\\NhapMon\\BTL_Final1\\QLNS\\QLNS\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "QLNS\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-03-04T12:33:11.916Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "E:\\2025-HK1\\NhapMon\\BTL_Final1\\QLNS\\QLNS\\Views\\YeuCauNghiPheps\\Delete.cshtml",
-              "RelativeDocumentMoniker": "QLNS\\Views\\YeuCauNghiPheps\\Delete.cshtml",
-              "ToolTip": "E:\\2025-HK1\\NhapMon\\BTL_Final1\\QLNS\\QLNS\\Views\\YeuCauNghiPheps\\Delete.cshtml",
-              "RelativeToolTip": "QLNS\\Views\\YeuCauNghiPheps\\Delete.cshtml",
-              "ViewState": "AgIAABwAAAAAAAAAAAAwwE0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-04T12:30:05.902Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "E:\\2025-HK1\\NhapMon\\BTL_Final1\\QLNS\\QLNS\\Views\\YeuCauNghiPheps\\Details.cshtml",
-              "RelativeDocumentMoniker": "QLNS\\Views\\YeuCauNghiPheps\\Details.cshtml",
-              "ToolTip": "E:\\2025-HK1\\NhapMon\\BTL_Final1\\QLNS\\QLNS\\Views\\YeuCauNghiPheps\\Details.cshtml",
-              "RelativeToolTip": "QLNS\\Views\\YeuCauNghiPheps\\Details.cshtml",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAAABsAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-04T12:26:50.284Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "E:\\2025-HK1\\NhapMon\\BTL_Final1\\QLNS\\QLNS\\Views\\ChamCongs\\Details.cshtml",
-              "RelativeDocumentMoniker": "QLNS\\Views\\ChamCongs\\Details.cshtml",
-              "ToolTip": "E:\\2025-HK1\\NhapMon\\BTL_Final1\\QLNS\\QLNS\\Views\\ChamCongs\\Details.cshtml",
-              "RelativeToolTip": "QLNS\\Views\\ChamCongs\\Details.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABsAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-04T12:20:55.707Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\2025-HK1\\NhapMon\\BTL_Final1\\QLNS\\QLNS\\Areas\\Admin\\Views\\Luongs\\Index.cshtml",
-              "RelativeDocumentMoniker": "QLNS\\Areas\\Admin\\Views\\Luongs\\Index.cshtml",
-              "ToolTip": "E:\\2025-HK1\\NhapMon\\BTL_Final1\\QLNS\\QLNS\\Areas\\Admin\\Views\\Luongs\\Index.cshtml",
-              "RelativeToolTip": "QLNS\\Areas\\Admin\\Views\\Luongs\\Index.cshtml",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAwwC0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-04T12:15:03.347Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\2025-HK1\\NhapMon\\BTL_Final1\\QLNS\\QLNS\\Areas\\Admin\\Views\\ChamCongs\\Index.cshtml",
-              "RelativeDocumentMoniker": "QLNS\\Areas\\Admin\\Views\\ChamCongs\\Index.cshtml",
-              "ToolTip": "E:\\2025-HK1\\NhapMon\\BTL_Final1\\QLNS\\QLNS\\Areas\\Admin\\Views\\ChamCongs\\Index.cshtml",
-              "RelativeToolTip": "QLNS\\Areas\\Admin\\Views\\ChamCongs\\Index.cshtml",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAAAsAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-04T12:06:54.41Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ChamCongsController.cs",
-              "DocumentMoniker": "E:\\2025-HK1\\NhapMon\\BTL_Final1\\QLNS\\QLNS\\Areas\\Admin\\Controllers\\ChamCongsController.cs",
-              "RelativeDocumentMoniker": "QLNS\\Areas\\Admin\\Controllers\\ChamCongsController.cs",
-              "ToolTip": "E:\\2025-HK1\\NhapMon\\BTL_Final1\\QLNS\\QLNS\\Areas\\Admin\\Controllers\\ChamCongsController.cs",
-              "RelativeToolTip": "QLNS\\Areas\\Admin\\Controllers\\ChamCongsController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T12:05:34.352Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\2025-HK1\\NhapMon\\BTL_Final1\\QLNS\\QLNS\\Views\\YeuCauNghiPheps\\Index.cshtml",
-              "RelativeDocumentMoniker": "QLNS\\Views\\YeuCauNghiPheps\\Index.cshtml",
-              "ToolTip": "E:\\2025-HK1\\NhapMon\\BTL_Final1\\QLNS\\QLNS\\Views\\YeuCauNghiPheps\\Index.cshtml",
-              "RelativeToolTip": "QLNS\\Views\\YeuCauNghiPheps\\Index.cshtml",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAAEIAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-04T12:01:23.62Z"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -225,130 +60,123 @@
               "RelativeDocumentMoniker": "QLNS\\Areas\\Admin\\Views\\Shared\\_AdminSidebar.cshtml",
               "ToolTip": "E:\\2025-HK1\\NhapMon\\BTL_Final1\\QLNS\\QLNS\\Areas\\Admin\\Views\\Shared\\_AdminSidebar.cshtml",
               "RelativeToolTip": "QLNS\\Areas\\Admin\\Views\\Shared\\_AdminSidebar.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAwwFoAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-04T02:31:12.697Z",
+              "WhenOpened": "2025-03-08T22:30:08.236Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "E:\\2025-HK1\\NhapMon\\BTL_Final1\\QLNS\\QLNS\\Areas\\Admin\\Views\\NguoiDungs\\Delete.cshtml",
-              "RelativeDocumentMoniker": "QLNS\\Areas\\Admin\\Views\\NguoiDungs\\Delete.cshtml",
-              "ToolTip": "E:\\2025-HK1\\NhapMon\\BTL_Final1\\QLNS\\QLNS\\Areas\\Admin\\Views\\NguoiDungs\\Delete.cshtml",
-              "RelativeToolTip": "QLNS\\Areas\\Admin\\Views\\NguoiDungs\\Delete.cshtml",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAswC8AAAAAAAAAAAAAAA==",
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\2025-HK1\\NhapMon\\BTL_Final1\\QLNS\\QLNS\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "QLNS\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\2025-HK1\\NhapMon\\BTL_Final1\\QLNS\\QLNS\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "QLNS\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-04T12:40:19.983Z"
+              "WhenOpened": "2025-03-08T22:29:40.022Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "E:\\2025-HK1\\NhapMon\\BTL_Final1\\QLNS\\QLNS\\Areas\\Admin\\Views\\NhanViens\\Edit.cshtml",
-              "RelativeDocumentMoniker": "QLNS\\Areas\\Admin\\Views\\NhanViens\\Edit.cshtml",
-              "ToolTip": "E:\\2025-HK1\\NhapMon\\BTL_Final1\\QLNS\\QLNS\\Areas\\Admin\\Views\\NhanViens\\Edit.cshtml",
-              "RelativeToolTip": "QLNS\\Areas\\Admin\\Views\\NhanViens\\Edit.cshtml",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAAFAAAABtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-04T12:41:49.701Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "E:\\2025-HK1\\NhapMon\\BTL_Final1\\QLNS\\QLNS\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "QLNS\\Controllers\\HomeController.cs",
-              "ToolTip": "E:\\2025-HK1\\NhapMon\\BTL_Final1\\QLNS\\QLNS\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "QLNS\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T02:56:36.181Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "LuongsController.cs",
-              "DocumentMoniker": "E:\\2025-HK1\\NhapMon\\BTL_Final1\\QLNS\\QLNS\\Areas\\Admin\\Controllers\\LuongsController.cs",
-              "RelativeDocumentMoniker": "QLNS\\Areas\\Admin\\Controllers\\LuongsController.cs",
-              "ToolTip": "E:\\2025-HK1\\NhapMon\\BTL_Final1\\QLNS\\QLNS\\Areas\\Admin\\Controllers\\LuongsController.cs",
-              "RelativeToolTip": "QLNS\\Areas\\Admin\\Controllers\\LuongsController.cs",
-              "ViewState": "AgIAANUAAAAAAAAAAAAwwNoAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T02:18:52.025Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\2025-HK1\\NhapMon\\BTL_Final1\\QLNS\\QLNS\\Views\\ChamCongs\\Index.cshtml",
-              "RelativeDocumentMoniker": "QLNS\\Views\\ChamCongs\\Index.cshtml",
-              "ToolTip": "E:\\2025-HK1\\NhapMon\\BTL_Final1\\QLNS\\QLNS\\Views\\ChamCongs\\Index.cshtml",
-              "RelativeToolTip": "QLNS\\Views\\ChamCongs\\Index.cshtml",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAACgAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-04T02:20:04.913Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "E:\\2025-HK1\\NhapMon\\BTL_Final1\\QLNS\\QLNS\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "QLNS\\Controllers\\AccountController.cs",
-              "ToolTip": "E:\\2025-HK1\\NhapMon\\BTL_Final1\\QLNS\\QLNS\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "QLNS\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAA5wCUAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T02:28:04.034Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 1,
               "Title": "_NhanVienSidebar.cshtml",
               "DocumentMoniker": "E:\\2025-HK1\\NhapMon\\BTL_Final1\\QLNS\\QLNS\\Views\\Shared\\_NhanVienSidebar.cshtml",
               "RelativeDocumentMoniker": "QLNS\\Views\\Shared\\_NhanVienSidebar.cshtml",
               "ToolTip": "E:\\2025-HK1\\NhapMon\\BTL_Final1\\QLNS\\QLNS\\Views\\Shared\\_NhanVienSidebar.cshtml",
               "RelativeToolTip": "QLNS\\Views\\Shared\\_NhanVienSidebar.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABdAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAE8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-04T02:58:25.682Z"
+              "WhenOpened": "2025-03-08T22:19:15.503Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "ChamCongsController.cs",
-              "DocumentMoniker": "E:\\2025-HK1\\NhapMon\\BTL_Final1\\QLNS\\QLNS\\Controllers\\ChamCongsController.cs",
-              "RelativeDocumentMoniker": "QLNS\\Controllers\\ChamCongsController.cs",
-              "ToolTip": "E:\\2025-HK1\\NhapMon\\BTL_Final1\\QLNS\\QLNS\\Controllers\\ChamCongsController.cs",
-              "RelativeToolTip": "QLNS\\Controllers\\ChamCongsController.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAYwL4AAABDAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\2025-HK1\\NhapMon\\BTL_Final1\\QLNS\\QLNS\\Views\\ChamCongs\\Create.cshtml",
+              "RelativeDocumentMoniker": "QLNS\\Views\\ChamCongs\\Create.cshtml",
+              "ToolTip": "E:\\2025-HK1\\NhapMon\\BTL_Final1\\QLNS\\QLNS\\Views\\ChamCongs\\Create.cshtml",
+              "RelativeToolTip": "QLNS\\Views\\ChamCongs\\Create.cshtml",
+              "ViewState": "AgIAACIAAAAAAAAAAAAswDMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-08T22:16:33.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\2025-HK1\\NhapMon\\BTL_Final1\\QLNS\\QLNS\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "QLNS\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\2025-HK1\\NhapMon\\BTL_Final1\\QLNS\\QLNS\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "QLNS\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-08T22:16:08.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NguoiDung.cs",
+              "DocumentMoniker": "E:\\2025-HK1\\NhapMon\\BTL_Final1\\QLNS\\QLNS\\Models\\NguoiDung.cs",
+              "RelativeDocumentMoniker": "QLNS\\Models\\NguoiDung.cs",
+              "ToolTip": "E:\\2025-HK1\\NhapMon\\BTL_Final1\\QLNS\\QLNS\\Models\\NguoiDung.cs",
+              "RelativeToolTip": "QLNS\\Models\\NguoiDung.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T02:20:04.905Z"
+              "WhenOpened": "2025-03-08T07:34:52.153Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "LuongsController.cs",
-              "DocumentMoniker": "E:\\2025-HK1\\NhapMon\\BTL_Final1\\QLNS\\QLNS\\Controllers\\LuongsController.cs",
-              "RelativeDocumentMoniker": "QLNS\\Controllers\\LuongsController.cs",
-              "ToolTip": "E:\\2025-HK1\\NhapMon\\BTL_Final1\\QLNS\\QLNS\\Controllers\\LuongsController.cs",
-              "RelativeToolTip": "QLNS\\Controllers\\LuongsController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T01:52:07.477Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 5,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\2025-HK1\\NhapMon\\BTL_Final1\\QLNS\\QLNS\\Views\\Luongs\\Index.cshtml",
-              "RelativeDocumentMoniker": "QLNS\\Views\\Luongs\\Index.cshtml",
-              "ToolTip": "E:\\2025-HK1\\NhapMon\\BTL_Final1\\QLNS\\QLNS\\Views\\Luongs\\Index.cshtml",
-              "RelativeToolTip": "QLNS\\Views\\Luongs\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
+              "DocumentMoniker": "E:\\2025-HK1\\NhapMon\\BTL_Final1\\QLNS\\QLNS\\Areas\\Admin\\Views\\NguoiDungs\\Index.cshtml",
+              "RelativeDocumentMoniker": "QLNS\\Areas\\Admin\\Views\\NguoiDungs\\Index.cshtml",
+              "ToolTip": "E:\\2025-HK1\\NhapMon\\BTL_Final1\\QLNS\\QLNS\\Areas\\Admin\\Views\\NguoiDungs\\Index.cshtml",
+              "RelativeToolTip": "QLNS\\Areas\\Admin\\Views\\NguoiDungs\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-04T01:51:58.445Z"
+              "WhenOpened": "2025-03-08T07:32:26.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "NguoiDungsController.cs",
+              "DocumentMoniker": "E:\\2025-HK1\\NhapMon\\BTL_Final1\\QLNS\\QLNS\\Areas\\Admin\\Controllers\\NguoiDungsController.cs",
+              "RelativeDocumentMoniker": "QLNS\\Areas\\Admin\\Controllers\\NguoiDungsController.cs",
+              "ToolTip": "E:\\2025-HK1\\NhapMon\\BTL_Final1\\QLNS\\QLNS\\Areas\\Admin\\Controllers\\NguoiDungsController.cs",
+              "RelativeToolTip": "QLNS\\Areas\\Admin\\Controllers\\NguoiDungsController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABoAAABcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T07:30:33.429Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\2025-HK1\\NhapMon\\BTL_Final1\\QLNS\\QLNS\\Areas\\Admin\\Views\\Luongs\\Create.cshtml",
+              "RelativeDocumentMoniker": "QLNS\\Areas\\Admin\\Views\\Luongs\\Create.cshtml",
+              "ToolTip": "E:\\2025-HK1\\NhapMon\\BTL_Final1\\QLNS\\QLNS\\Areas\\Admin\\Views\\Luongs\\Create.cshtml",
+              "RelativeToolTip": "QLNS\\Areas\\Admin\\Views\\Luongs\\Create.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAADEAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-08T06:45:50.358Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LuongsController.cs",
+              "DocumentMoniker": "E:\\2025-HK1\\NhapMon\\BTL_Final1\\QLNS\\QLNS\\Areas\\Admin\\Controllers\\LuongsController.cs",
+              "RelativeDocumentMoniker": "QLNS\\Areas\\Admin\\Controllers\\LuongsController.cs",
+              "ToolTip": "E:\\2025-HK1\\NhapMon\\BTL_Final1\\QLNS\\QLNS\\Areas\\Admin\\Controllers\\LuongsController.cs",
+              "RelativeToolTip": "QLNS\\Areas\\Admin\\Controllers\\LuongsController.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAGIAAABiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T06:45:43.842Z"
             }
           ]
         }

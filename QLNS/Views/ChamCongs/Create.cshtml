@@ -28,7 +28,7 @@
                     <label asp-for="NgayLam" class="form-label">
                         <i class="fa-solid fa-calendar-day"></i> Ngày Làm
                     </label>
-                    <input asp-for="NgayLam" type="date" class="form-control" />
+                    <input asp-for="NgayLam" type="date" class="form-control" min="@ViewData["NgayVaoLam"]" />
                     <span asp-validation-for="NgayLam" class="text-danger"></span>
                 </div>
 

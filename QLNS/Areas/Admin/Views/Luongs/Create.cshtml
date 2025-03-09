@@ -45,6 +45,12 @@
     </div>
 </div>
 
+@if (ViewData["TonTai"] == "True"){
+    <script>
+        alert("Đã tồn tại lương");
+    </script>
+}
+
 @section Scripts {
     @{
         await Html.RenderPartialAsync("_ValidationScriptsPartial");

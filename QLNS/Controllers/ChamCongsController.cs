@@ -52,6 +52,7 @@ namespace QLNS.Controllers
         {
             var maNV = getMaNhanVien();
             ViewData["MaNhanVien"] = maNV;
+            ViewData["NgayVaoLam"] = _context.NhanViens.FirstOrDefault(cc => cc.MaNhanVien == getMaNhanVien()).NgayVaoLam.ToString("yyyy-MM-dd");
             return View();
         }
 
